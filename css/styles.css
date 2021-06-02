@@ -20,8 +20,34 @@ hermanos ----->los elementos del mismo nivel
 adyacente ----> funciona como hermano con la diferencia solo al elemento mas cercano
 :pseudicodigo > representan el estado de un elemento mas
 :: pseudoelemento > crean elementos especiales
+
+
+!important ----> sobreescribe alguna otro establecido en algun punto del doc sin importar el tipo de selectores
+
+
 */
 
 
+/*COMPONENTES
+conjunto de contenido
 
 
+-DYSPLAY
+la propiedad css dysplay especifica si un elemento es tratado como blocj or inline element y el diseño
+usado por sus hijos como flow layout (diseño de flujo), flex(flexible) o  grid (cuadricula)
+
+display:block;
+esperan ocupar todo el espacio en su linea
+
+display: inline;
+solo ocupan el espacio fisico en la linea
+
+-FLOW
+el flow layout obedece la configuracion de writing-mode y direction
+
+writing-mode: horizontal-tb (contenido de manera horizontal como leemos en español y tp = top - bottom)
+direction:ltr (como en español, la direccion es de izquiera a derecha)
+
+
+
+*/
