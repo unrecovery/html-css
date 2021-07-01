@@ -42,7 +42,13 @@ a:hover
 :root tiene mas peso y es dirigido a html, nos dirigimos al elemento mas superior,
 
 */
+/*
 html{
+   font-size:16px;
+}
+*/
+
+:root{
    font-size:16px;
 }
 
